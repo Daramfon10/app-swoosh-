@@ -20,7 +20,9 @@ class ViewController: UIViewController {
 //        swoosh.frame  = CGRect(x: view.frame.width / 2 - swoosh.frame.width/2, y: 50, width: swoosh.frame.width, height: swoosh.frame.height)
 //        bgImg.frame  = view.frame
     } 
-
+    @IBAction func unwindFromSkillVC(unwindSegue: UIStoryboardSegue){
+        
+    }
 
 }
 
